@@ -61,7 +61,7 @@ input {
     padding: 40px 144px;
     border: 1px #C6C6C6 solid;
     margin: 40px auto;
-    background-image: url("/images/jianli.jpg");
+    background-image: url("images/jianli.jpg");
     background-repeat: no-repeat;
     background-size: 998px;
 }
