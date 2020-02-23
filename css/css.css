@@ -18,12 +18,15 @@ h6 {
     color: #666;
     font-size: 12px;
     font-family: "宋体";
-} 
+}
+
 /* 行内元素 */
 a {
     text-decoration: none;
     color: #666;
-} 
+}
+em{    font-style: inherit;}
+
 /* 行内块元素 */
 img,
 input {
@@ -31,4 +34,117 @@ input {
     outline-style: none;
     padding: 0;
     vertical-align: top;
+}
+.tohttps:hover{
+    color: rgb(187, 5, 5);
+    text-decoration: underline;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.title{
+    display: block;
+    margin: 40px 0 20px 0;
+    font-family: '宋体';
+    font-size: 24px;
+    padding: 4px 0;
+    color: #202020;
+    font-weight: 600;
+    border-bottom: 1px #202020 solid;
+}
+.resume-main {
+    width: 710px;
+    height: 100%;
+    padding: 40px 144px;
+    border: 1px #C6C6C6 solid;
+    margin: 40px auto;
+    background-image: url("/images/jianli.jpg");
+    background-repeat: no-repeat;
+    background-size: 998px;
+}
+.resume-main .occupation-intention{
+    font-family: '宋体';
+    font-size: 24px;
+    padding: 4px 0;
+    color: #808080;
+    border-bottom: 1px #808080 solid;
+}
+.resume-main .personal-information{
+    overflow:auto;
+    padding-top: 140px;
+}
+.resume-main .personal-information .information{
+    overflow:auto;
+    width: 510px;
+    float: left;
+    padding-top: 30px;
+}
+.resume-main .personal-information .portrait{
+    float: left;
+    width: 200px;
+}
+.resume-main .personal-information .information div{
+    width: 50%;
+}
+.resume-main .personal-information .information div p{
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.personal-information .information div p span{
+    display: block;
+    float: left;
+    min-width: 80px;
+    width: auto;
+}
+.resume-main .personal-information .address{
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.resume-main .brief-introduction .introduce{
+    font-size: 14px;
+    text-indent: 30px;
+    color: #2e2e2e;
+    font-family: 微软雅黑;
+}
+.resume-main .education-experience,.education-experience .experience{
+    overflow: auto;
+    margin-top: 20px;
+}
+.education-experience .experience .experience-left{
+    width: 160px;
+}
+.education-experience .experience .experience-right{
+    width: 550px;
+}
+.education-experience .experience .time{
+    font-size: 16px;
+    height: 20px;
+    text-indent: 10px;
+    color: #111111;
+}
+.education-experience .experience .time-experience{
+    font-size: 15px;
+    color: #444444;
+}
+.project-works .works{
+    font-size: 16px;
+    color: #363636;
+}
+.project-works .works h4{
+    font-size: 16px;
+}
+.project-works .works .project-introduction{
+    margin-top: 10px;
+    line-height: 24px;
+}
+.occupation-skill .skill,.skill-certificate .certificate{
+    font-size: 16px;
+    line-height: 24px;
 }
