@@ -58,7 +58,7 @@ input {
 .resume-main {
     width: 710px;
     height: 100%;
-    padding: 40px 144px;
+    padding: 30px 144px;
     border: 1px #C6C6C6 solid;
     margin: 40px auto;
     background-image: url("../images/jianli.jpg");
@@ -110,12 +110,17 @@ input {
 .resume-main .brief-introduction .introduce{
     font-size: 14px;
     text-indent: 30px;
-    color: #2e2e2e;
+    color: #444444;
     font-family: 微软雅黑;
 }
 .resume-main .education-experience,.education-experience .experience{
     overflow: auto;
     margin-top: 20px;
+}
+.education-experience .college{
+    font-size: 15px;
+    color: #444444;
+    font-weight: 600;
 }
 .education-experience .experience .experience-left{
     width: 160px;
